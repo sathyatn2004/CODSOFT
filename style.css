@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 60px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* About Section */
+.about img.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills li {
+  background: #eaeaea;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Projects */
+.projects .project {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.projects img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+/* Resume Button */
+.resume .btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Contact */
+.contact p {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: rgb(101, 64, 104);
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects img {
+    width: 100%;
+  }
+}
